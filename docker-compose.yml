@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   postgres:
-    image: postgres
+    image: postgres:13 #version Especifica
     restart: always
     environment:
       - DATABASE_HOST=127.0.0.1
